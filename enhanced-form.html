@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">
+        <meta name="description" content="Advanced HTML Enhancing Content">
+
+        <title>Advanced HTML5 Enhancing Content</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>Advanced HTML5 Enhancing Content</h1>
+            <nav>
+                <a href="#Lists">Lists</a>
+                <a href="#Tables">Tables</a>
+                <a href="#Media">Media</a>
+                <a href="#Form">Form</a>
+            </nav>
+        </header>
+
+        <section id="Lists">
+            <h2>Lists</h2>
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Manchester United</li>
+                <li>Liverpool</li>
+                <li>Manchester City</li>
+            </ul>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Liverpool</li>
+                <li>Manchester City</li>
+                <li>Manchester United</li>
+            </ol>
+            <h3>Definition List</h3>
+            <dl>
+                <dt>Liverpool</dt>
+                <dd>One of the biggest Clubs in England and performing at the top right now.</dd>
+                <dt>Manchester City</dt>
+                <dd>The club had fallen off in the recent past but now its performing at the top.</dd>
+                <dt>Manchester United</dt>
+                <dd>The biggest club in England but it has fallen off since Sir Alex Fergeson left but now its aiming to come back to the top</dd>
+            </dl>
+            <h3>Nested List</h3>
+            <ul>
+                <li>Top Tier Clubs
+                    <ul>
+                        <li>Liverpool</li>
+                        <li>Manchester United</li>
+                        <li>Manchester City</li>
+                        <li>Arsenal</li>
+                        <li>Chelsea</li>
+                        <li>Totenham Hotspur</li>
+                    </ul>
+                </li>
+                <li>Other Clubs
+                    <ul>
+                      <li>Newcastle United</li>
+                      <li>Brentford</li>
+                      <li>Bournemouth</li>
+                      <li>Sunderland</li>
+                      <li>Nottingham Forest</li>
+                      <li>Aston Villa</li>
+                      <li>Wolverhampton Wanderers</li>
+                    </ul>
+                </li> 
+            </ul>
+
+        </section>
+
+        <section id="Tables">
+            <h2>Tables</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Initials</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Manchester United</td>
+                            <td>M.U.</td>
+                            <td>Manchester</td>
+                        </tr>
+                        <tr>
+                            <td>Liverpool</td>
+                            <td>L.F.C.</td>
+                            <td>Liverpool</td>
+                        </tr>
+                        <tr>
+                            <td>Manchester City</td>
+                            <td>M.C.</td>
+                            <td>Manchester</td>
+                        </tr>
+                        <tr>
+                            <td>Chelsea</td>
+                            <td>C.F.C.</td>
+                            <td>London</td>
+                        </tr>
+                        <tr>
+                            <td>Totenham Hotspur</td>
+                            <td>T.H.F.C</td>
+                            <td>London</td>
+                        </tr>
+                        <tr>
+                            <td>Arsenal</td>
+                            <td>A.F.C.</td>
+                            <td>London</td>
+                        </tr>
+                    </tbody>
+            </table>        
+        </section>
+
+        <section id="Media">
+            <h2>Media</h2>
+            <h3>Images</h3>
+            <img src="https://images.pexels.com/photos/32056547/pexels-photo-32056547.jpeg" alt="streetlights silloutte" height="500" width="400">
+            <img src="https://images.pexels.com/photos/33285795/pexels-photo-33285795.jpeg" alt="flats with two people at the bottom" height="500" width="400">
+            <h3>Video</h3>
+            <video controls height="640" width="360"
+            src="https://videos.pexels.com/video-files/27673530/12200688_1440_2560_30fps.mp4" type="video/mp4">
+            Your browser does not support this video element
+            </video>
+            <video controls height="640" width="360"
+            src="https://videos.pexels.com/video-files/33076040/14098656_1080_1920_24fps.mp4" type="video/mp4">
+            Your browser does not support this video element
+            </video>
+            <h3>Audio</h3>
+            Due to copyright issues, I will not put any.
+
+        </section>
+
+        <section id="Form">
+            <h2>Form</h2>
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <br><br>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age..." required>
+                <br><br>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+                <br><br>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+254700000000" required>
+                <br><br>
+                <fieldset>
+                    <legend>Gender</legend>
+                      <label for="male">Male</label>
+                      <input type="radio" id="male" name="gender" value="Male">
+                      <label for="female">Female</label>
+                      <input type="radio" id="female" name="gender" value="Female">
+                </fieldset>
+                <br><br>
+                <label for="cv">Upload CV</label>
+                <input type="file" name="cv" id="cv">
+                <br><br>
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio" cols="40" rows="10" placeholder="Write your bio here..."></textarea>
+                <br>
+                <input type="submit" value="submit">
+                <br>
+            </form>
+            
+
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Advanced HTML5 Demo. All rights reserved.</p>
+        </footer>
+
+    </body>
+</html>
